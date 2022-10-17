@@ -44,7 +44,10 @@
 
     form.addEventListener('click' ,function(event){
       event.preventDefault()
-      var lugha = document.querySelector("input[type='radio']:checked").value  
+      // var lugha = document.querySelector("input[type='radio']:checked").value  
+
+      var lughal = document.getElementById('lugha')
+      var lugha = lughal.options[lughal.selectedIndex].value
 
       if (lugha == 'Swahili'){
         document.getElementById('dates').innerHTML = `${daysSwahili[todayDay]}  ${todayDate} ${monthSwahili[todayMonth]}  ${todayYear} `        
@@ -65,6 +68,12 @@
       else if (lugha == 'Spanish'){
         document.getElementById('dates').innerHTML = `${daysSpanish[todayDay]}  ${todayDate}  ${monthSpanish[todayMonth]} ${todayYear}`
       }
+
+
+      var o = document.getElementById('mal')
+      var odata = o.options[o.selectedIndex].value
+
+      alert(odata)
 
     })
    

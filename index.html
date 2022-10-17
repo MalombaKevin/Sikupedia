@@ -19,11 +19,23 @@
       <h4>Get Today's Date</h4><br>
         <div class="forms" >
             <form action="" id="form">
-                <input type="radio" name="lang" id="" value="English" onclick="leo()">English
+                <!-- <input type="radio" name="lang" id="" value="English">English
                 <input type="radio" name="lang" id="" value="Swahili">Swahili
                 <input type="radio" name="lang" id="" value="French">French
                 <input type="radio" name="lang" id="" value="Spanish">Spanish
-                <input type="radio" name="lang" id="" value="German">German
+                <input type="radio" name="lang" id="" value="German">German -->
+
+                <select id="lugha" class="btn btn-lg btn-outline-primary" type="submit">
+                  <option value="English">English</option>
+                    <option value="Swahili">Swahili</option>
+                      <option value="French">French</option>
+                  <option value="German">German</option>
+                  <option value="Spanish">Spanish</option>
+
+
+                </select>
+
+                <!-- <button class="btn btn-sm btn-primary"type="submit>">Submit</button> -->
                
             </form>
         </div><br>
@@ -31,7 +43,7 @@
         <div class="dates">
           <!-- <p id="dates"></p> -->
           <form action="" align="center">
-          <textarea name="" id="dates" cols="30" rows="1"></textarea><br>
+          <textarea name="" id="dates" cols="30" rows="1" style="color:orangered; font-weight:bold;font-size:large;"></textarea><br>
           <a class="btn" onclick="copyPaste()" id="btn" style="color:black; font-size: x-large;outline:none; border:none"><i class="fa-solid fa-copy"></i></a>
         </form>
 

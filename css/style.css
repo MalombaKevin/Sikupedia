@@ -5,17 +5,17 @@
 }
 
 .dates{
-    /* From https://css.glass */
-background: rgba(55, 35, 143, 0.46);
+   /* From https://css.glass */
+background: rgba(237, 24, 24, 0.2);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(4.4px);
--webkit-backdrop-filter: blur(4.4px);
-border: 1px solid rgba(55, 35, 143, 0.3);
+backdrop-filter: blur(7.9px);
+-webkit-backdrop-filter: blur(7.9px);
+border: 1px solid rgba(237, 24, 24, 0.3);
 width:50%;
 margin: auto;
 padding:1%;
-padding-left:10%
+padding-left:15%
 }
 
 textarea{
@@ -25,7 +25,7 @@ textarea{
    outline:none;
 }
 #btn{
-    padding-right: 30%;
+    padding-right: 25%;
 }
 input[type="radio"]{
     color:yellow
