@@ -42,7 +42,7 @@
 
 
 
-    form.addEventListener('click' ,function(event){
+    form.addEventListener('submit' ,function(event){
       event.preventDefault()
       // var lugha = document.querySelector("input[type='radio']:checked").value  
 
