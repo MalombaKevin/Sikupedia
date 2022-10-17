@@ -1,0 +1,29 @@
+.bg{
+    /* background-image: url('https://play-lh.googleusercontent.com/n9RuWo5wCgudQAv3Uv0qUuQ6EEB6PsGg4bqE81TOcM8ejgD1pQw3xrE6t9jHSIJtbus=w526-h296-rw'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+
+.dates{
+    /* From https://css.glass */
+background: rgba(55, 35, 143, 0.46);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.4px);
+-webkit-backdrop-filter: blur(4.4px);
+border: 1px solid rgba(55, 35, 143, 0.3);
+width:50%;
+margin: auto;
+padding:1%;
+padding-left:10%
+}
+
+textarea{
+   background-color: transparent;
+   border:none;
+   resize:none;
+   outline:none;
+}
+#btn{
+    padding-right: 30%;
+}
