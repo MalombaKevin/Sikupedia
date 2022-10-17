@@ -41,9 +41,18 @@ input[type="radio"]{
     backdrop-filter: blur(4.4px);
     -webkit-backdrop-filter: blur(4.4px);
     border: 1px solid rgba(55, 35, 143, 0.3);
-    width:80%;
+    width:100%;
     margin: auto;
     padding:1%;
+
     
 }
+
+textarea{
+    background-color: transparent;
+    border:none;
+    resize:none;
+    outline:none;
+    width:80%;
+ }
 }
