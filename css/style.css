@@ -30,3 +30,20 @@ textarea{
 input[type="radio"]{
     color:yellow
 }
+
+@media screen  and (max-width:1000){
+
+    .dates{
+        /* From https://css.glass */
+    background: rgba(55, 35, 143, 0.46);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(55, 35, 143, 0.3);
+    width:80%;
+    margin: auto;
+    padding:1%;
+    paddi
+    
+}
