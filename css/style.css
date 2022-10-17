@@ -27,3 +27,6 @@ textarea{
 #btn{
     padding-right: 30%;
 }
+input[type="radio"]{
+    color:yellow
+}

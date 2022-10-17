@@ -42,7 +42,7 @@
 
 
 
-    form.addEventListener('mouseover' ,function(event){
+    form.addEventListener('click' ,function(event){
       event.preventDefault()
       var lugha = document.querySelector("input[type='radio']:checked").value  
 
@@ -73,7 +73,6 @@
 // copy to clipboard
 
 function copyPaste(){
-
   
 
 
