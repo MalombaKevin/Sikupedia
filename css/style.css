@@ -31,7 +31,7 @@ input[type="radio"]{
     color:yellow
 }
 
-@media screen  and (max-width:1000){
+@media screen  and (max-width:1000px){
 
     .dates{
         /* From https://css.glass */
