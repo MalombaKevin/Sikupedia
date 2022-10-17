@@ -42,7 +42,7 @@ input[type="radio"]{
     -webkit-backdrop-filter: blur(4.4px);
     border: 1px solid rgba(55, 35, 143, 0.3);
     width:100%;
-    padding:20%;
+    padding-left:30%;
 
     
 }
