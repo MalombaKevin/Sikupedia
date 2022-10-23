@@ -92,7 +92,7 @@ function copyPaste(){
 
   navigator.clipboard.writeText(copyText.value)
 
-  alert(copyText.value)
+  alert("copied")
 
 
 }
