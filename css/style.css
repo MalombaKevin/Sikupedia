@@ -55,3 +55,8 @@ textarea{
     width:80%;
  }
 }
+
+.darkmode{
+    color:white;
+    background-color: black;
+    }
